@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Prodesp.CalendarioSaude.TO</name>
+    </assembly>
+    <members>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.PessoaCidadaoAdesaoRequestData.Protocolo">
+            <summary>
+            Protocolo adequirido na solicitação da adesão
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.PessoaCidadaoAdesaoRequestData.DataNascimento">
+            <summary>
+            Data de nascimento no formato DD/MM/YYYY
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.PessoaCidadaoAdesaoRequestData.Sexo">
+            <summary>
+             Masculino = 'M', Feminino = 'F'
+            </summary>
+        </member>
+        <member name="T:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.Documentacao">
+            <summary>
+            Documento de identificação usuário.
+            </summary>
+            <param name="CNS"> Obrigatório quando não fornecido CPF.</param>
+            <param name="CPF"> Obrigatório quando não fornecido CNS.</param>
+        </member>
+        <member name="T:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.SexoRequest">
+            <summary>
+            Documento de identificação usuário.
+            </summary>
+            <param name="Masculino"> Obrigatório quando não fornecido Feminino.</param>
+            <param name="Feminino"> Obrigatório quando não fornecido Masculino.</param>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.SolicitarAdesaoRequestData.CNS">
+            <summary>
+            CNS
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.SolicitarAdesaoRequestData.DataNascimento">
+            <summary>
+            Data de nascimento
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.SolicitarAdesaoRequestData.IdMunicipio">
+            <summary>
+            Id do municipio
+            </summary>
+            [Required]
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.RecuperacaoSenhaRequestData.CNS">
+            <summary>
+            CNS: Obrigatório se o CPF não for informado
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.RecuperacaoSenhaRequestData.CPF">
+            <summary>
+            CPF: Obrigatório se o CNS não for informado
+            </summary>
+        </member>
+        <member name="P:Prodesp.CalendarioSaude.CrossCutting.TO.Request.Pessoa.RecuperacaoSenhaRequestData.TipoEnvio">
+            <summary>
+            Tipo de Envio: EMAIL OU SMS
+            </summary>
+        </member>
+    </members>
+</doc>

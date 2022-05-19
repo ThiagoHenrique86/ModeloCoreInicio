@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prodesp.Domain.Shared\Prodesp.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Application">
+      <HintPath>..\packages\Prodesp.Core.Backend.Application.2.0.0.8\lib\net452\Prodesp.Core.Backend.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Gsnet.Framework">
+      <HintPath>..\packages\Prodesp.Gsnet.Framework.2.0.0.17\lib\net45\Prodesp.Gsnet.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Interfaces\Gsnet\" />
+    <Folder Include="Services\Implementations\Gsnet\" />
+    <Folder Include="Services\Interfaces\Gsnet\" />
+  </ItemGroup>
+
+</Project>

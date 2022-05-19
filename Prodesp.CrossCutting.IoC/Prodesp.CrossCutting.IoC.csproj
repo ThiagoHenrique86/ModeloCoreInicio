@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Ninject.Web.Common" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prodesp.Application\Prodesp.Application.csproj" />
+    <ProjectReference Include="..\Prodesp.Infra.EF\Prodesp.Infra.EF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Application">
+      <HintPath>..\..\..\portalvacinasp-master\Prodesp.VaciVida\packages\Prodesp.Core.Backend.Application.2.0.0.8\lib\net452\Prodesp.Core.Backend.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.CrossCutting.IoC">
+      <HintPath>..\packages\Prodesp.Core.Backend.CrossCutting.IoC.2.0.0.14\lib\net452\Prodesp.Core.Backend.CrossCutting.IoC.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\..\..\portalvacinasp-master\Prodesp.VaciVida\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Infrastructure.Data.EF">
+      <HintPath>..\packages\Prodesp.Core.Backend.Infrastructure.Data.EF.2.0.0.14\lib\net452\Prodesp.Core.Backend.Infrastructure.Data.EF.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.EntityFramework">
+      <HintPath>..\packages\Prodesp.Core.EntityFramework.1.0.0\lib\net452\Prodesp.Core.EntityFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

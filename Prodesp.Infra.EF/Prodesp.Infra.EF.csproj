@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="6.0.4" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="6.21.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prodesp.Application\Prodesp.Application.csproj" />
+    <ProjectReference Include="..\Prodesp.Domain.Shared\Prodesp.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Prodesp.Domain\Prodesp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Application">
+      <HintPath>..\packages\Prodesp.Core.Backend.Application.2.0.0.8\lib\net452\Prodesp.Core.Backend.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Infrastructure.Data.EF">
+      <HintPath>..\packages\Prodesp.Core.Backend.Infrastructure.Data.EF.2.0.0.14\lib\net452\Prodesp.Core.Backend.Infrastructure.Data.EF.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Gsnet.Framework">
+      <HintPath>..\packages\Prodesp.Gsnet.Framework.2.0.0.17\lib\net45\Prodesp.Gsnet.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\Gsnet\" />
+    <Folder Include="Repositories\Gsnet\" />
+  </ItemGroup>
+
+</Project>

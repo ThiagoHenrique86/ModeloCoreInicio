@@ -1,0 +1,62 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*storage.ide
+*storage.ide-shm
+*storage.ide-wal
+
+# VS Source Control
+.vs
+.vs/
+
+# Testes
+TestResults
+
+# Compilados e Logs
+bin
+obj
+Log
+
+bin/
+obj/
+Log/
+v15/
+
+/bin
+/obj
+/Log
+/v15
+
+# As seguintes extensoes
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.pubxml
+*.ide
+*.ide-shm
+*.ide-wal
+
+/Projetos/dotnet_core/Prodesp.DotNetCore/Prodesp.Application/bin

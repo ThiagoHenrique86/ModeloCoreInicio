@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <ImplicitUsings>enable</ImplicitUsings>
+ 
+		  <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prodesp.Domain.Shared\Prodesp.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Prodesp.Domain\Prodesp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+	<ItemGroup>
+		<Content Include="..\Shared\SharedSettings.json" Link="SharedSettings.json" CopyToOutputDirectory="Always" />
+		
+	</ItemGroup>
+
+	
+
+
+</Project>

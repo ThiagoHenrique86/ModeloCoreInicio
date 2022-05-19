@@ -1,0 +1,9 @@
+{
+  "ConnectionStrings": {
+    "SQLSERVER": "cAwV6UZRlPEPxYyfIS0dwQQZgCnIol7cYPQIykKElBJcuSZB7UQf/s96ZaTPDSEL+ZsZHmBVGYvFTJwB5sd//ZFza17KwLDYbD9WzSJ/t6VSbyoS+FiwMLtD6vM8FPe+oelZq43AeBjQKPbYOwbKwdC0eY/OkKCYIEcy1IVgQP23/dHEEsxBHibyGy/ta4m/1L5qjv22uA/cjMPhi3eS8TBVavrw3b0OPaq3TyHhlrmilTsk6dEhrPFG0+uUE2zXqHtP/e2Sgxzo3NDdNMox0p2z5AeDxLbPcWHv30XN0os="
+  },
+  "AppSettings": {
+    "Secret": "eqd+1pib03HwtN1RqM8EVK5m4rPCMHtN9uXnS+PubtSHKjJnZTALk/ic/EaCYVnzS4TKcBotBNhz+vUj+ohMo/UO/cUbsaRNlDCO+Mp3Oh48p3T6jvyQMyP93PjJpehXJj91/urrrZwhfp969BjchZMPvIKunQ1q3m1KVdZ3w5gW/1eUCW7Q2K2k9pkIBnDMWT8b91yKpo/czL9cItLfZxbEucI14ZSVbjBqvJqcl8TLqQc7wukXcpxObMP1VUI9FclxmrSeOSY=",
+    "JWT.EXPIRATION.HOURS": "8"
+  }
+}

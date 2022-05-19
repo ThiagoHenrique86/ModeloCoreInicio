@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Gsnet.Framework">
+      <HintPath>..\packages\Prodesp.Gsnet.Framework.2.0.0.17\lib\net45\Prodesp.Gsnet.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

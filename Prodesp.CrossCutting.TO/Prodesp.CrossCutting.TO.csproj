@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodesp.Core.Backend.Application">
+      <HintPath>..\..\..\portalvacinasp-master\Prodesp.VaciVida\packages\Prodesp.Core.Backend.Application.2.0.0.3\lib\net452\Prodesp.Core.Backend.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Core.Backend.Domain">
+      <HintPath>..\packages\Prodesp.Core.Backend.Domain.2.0.0.9\lib\net452\Prodesp.Core.Backend.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Prodesp.Gsnet.Core.TO">
+      <HintPath>..\packages\Prodesp.Gsnet.Core.TO.2.0.0.5\lib\net45\Prodesp.Gsnet.Core.TO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
